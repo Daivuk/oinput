@@ -27,7 +27,7 @@ if (pInput->isDown(OKeyW)) moveForward();
 
 ## First Person mouse control
 
-Simple call `` to toggle between UI or first person camera control.
+Simply call `setFpsMouse` to toggle between UI or first person camera control.
 
 ```cpp
 pInput->setFpsMouse(true);
