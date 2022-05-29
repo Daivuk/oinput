@@ -15,7 +15,9 @@ auto pInput = oinput::Input(yourWindowHandle);
 
 ...
 
-// Main loop, check for inputs
+// Main loop
+pInput->update(screenWidth, screenHeight);
+
 if (pInput->isJustDown(OMouse1)) shoot();
 if (pInput->isDown(OKeyW)) moveForward();
 
